@@ -1,70 +1,32 @@
-# Getting Started with Create React App
+# Pretty print JSON app
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## How to run this app
+1. Install dependencies: `npm install`
+2. Run the app: `npm run start`
 
-## Available Scripts
+## How to run tests
+1. ... (TODO: add react testing library tests and perhaps snapshot testing)
 
-In the project directory, you can run:
+## About
+- This exercise has 4 parts. 
+- [Link to the exercise](https://json-editor-jdan.vercel.app/)
 
-### `npm start`
+### Part 1 data
+```json
+{"id":"8947b61f-4386-4ead-ab52-00200a446140","title":"Hello, world!","version":4.1,"public":true}
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Part 2 data
+```json
+{"id":"8947b61f-4386-4ead-ab52-00200a446140","title":"Hello, world!","version":4.1,"public":true,"properties":{"icon":"🎉","width":"full","typeface":"sans-serif"}}
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Part 3 data
+```json
+{"id":"8947b61f-4386-4ead-ab52-00200a446140","title":"Hello, world!","version":4.1,"history":{"597b41a1-1e31-4f7d-8763-01f244eaf5f7":{"date":"3 Feb 2022","changes":{"title":"Hello, world! v2"}},"3d4a2ceb-e787-479e-8087-3aaaf0d16e61":{"date":"29 Jan 2022","changes":{"icon":"🚧"}},"678f83a8-230d-4c3c-92cf-b3cacafb0a0a":{"date":"22 Jan 2022","changes":{"public":false}}},"public":true,"properties":{"icon":"🎉","width":"full","typeface":"sans-serif"}}
+```
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Part 4 data
+```json 
+{"id":"8947b61f-4386-4ead-ab52-00200a446140","title":"Hello, world!","version":4.1,"collaborators":["ecb5c324-6e4c-4348-940d-19b9d9d42e78","6a1401e9-a878-4eac-98fd-5eeabf414332","8fa9f385-3e65-4899-a7d0-206b3f4b28bf","328bd6d9-eb59-45df-a230-be32ebd003b7","032bba7f-2ee5-4518-946f-955ada6fdc34","09941c45-17b8-431d-a86c-d578484ec261"],"history":{"597b41a1-1e31-4f7d-8763-01f244eaf5f7":{"date":"3 Feb 2022","changes":{"title":"Hello, world! v2"}},"3d4a2ceb-e787-479e-8087-3aaaf0d16e61":{"date":"29 Jan 2022","changes":{"icon":"🚧"}},"678f83a8-230d-4c3c-92cf-b3cacafb0a0a":{"date":"22 Jan 2022","changes":{"public":false}}},"public":true,"properties":{"icon":"🎉","width":"full","typeface":"sans-serif"}}
+```
