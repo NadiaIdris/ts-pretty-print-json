@@ -25,3 +25,4 @@ The data is in the `data.ts` file.
 
 # Solution
 
+![](/readme-assets/pretty-print-json.svg)
