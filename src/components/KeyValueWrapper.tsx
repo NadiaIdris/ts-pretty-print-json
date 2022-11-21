@@ -13,13 +13,14 @@ interface KeyValueWrapperProps {
 
 const KeyValueWrapper = ({
   keyProp,
-  onClickHandler,
   isOpen,
   setIsOpen,
+  onClickHandler,
   children,
   type,
 }: KeyValueWrapperProps) => {
-  const bracket = type === "array" ? ["[", "]"] : ["{", "}"];
+  const bracket = type === "array" ? [ "[", "]" ] : [ "{", "}" ];
+  
   return (
     <div key={keyProp} style={{ marginLeft: "20px" }}>
       {`"${keyProp}":`}

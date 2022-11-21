@@ -1,30 +1,29 @@
-export const data  = {
-  id: "8947b61f-4386-4ead-ab52-00200a446140",
-  title: "Hello, world!",
-  version: 4.1,
-  emoji: "👋",
+export const data = {
+  id: "972af055-c04e-4729-9896-e5039b509879",
+  title: "Santa Clara",
+  version: 8.9,
   collaborators: [
-    "ecb5c324-6e4c-4348-940d-19b9d9d42e78",
-    "6a1401e9-a878-4eac-98fd-5eeabf414332",
-    "8fa9f385-3e65-4899-a7d0-206b3f4b28bf",
-    "328bd6d9-eb59-45df-a230-be32ebd003b7",
-    "032bba7f-2ee5-4518-946f-955ada6fdc34",
-    "09941c45-17b8-431d-a86c-d578484ec261",
+    "ed04094e-ced0-4ae6-b7a6-1d360b08e468",
+    "00634130-1904-400d-aeb5-ffebd39d6926",
+    "35150638-9dc2-4ab7-9750-0273df1496b7",
+    "0cf8f460-875a-4c08-9c42-24c15a9b0046",
+    "24805e10-f2ab-40c7-8cd6-b226e7e07abe",
+    "feec1379-cab1-4d3f-ba64-9d8c0ca157ee",
   ],
-  history: {
-    "597b41a1-1e31-4f7d-8763-01f244eaf5f7": {
-      date: "3 Feb 2022",
-      changes: { title: "Hello, world! v2" },
+  changes: {
+    "da64315c-7283-4e98-95b6-3f690485c28a": {
+      date: "10 Oct 2021",
+      population: { title: "Update icons" },
     },
-    "3d4a2ceb-e787-479e-8087-3aaaf0d16e61": {
-      date: "29 Jan 2022",
-      changes: { icon: "🚧" },
+    "feec1379-cab1-4d3f-ba64-9d8c0ca157ee": {
+      date: "9 Oct 2021",
+      changes: { icon: "🎉" },
     },
-    "678f83a8-230d-4c3c-92cf-b3cacafb0a0a": {
-      date: "22 Jan 2022",
+    "24805e10-f2ab-40c7-8cd6-b226e7e07abe": {
+      date: "8 Oct 2021",
       changes: { public: false },
     },
   },
   public: true,
-  properties: { icon: "🎉", width: "full", typeface: "sans-serif" },
+  properties: { icon: "🦀", width: "100px", color: "red" },
 };
